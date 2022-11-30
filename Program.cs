@@ -12,7 +12,7 @@ namespace FirstGIthubProject
             int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Podaj trzecią liczbę!");
             int c = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(a + b);
+            Console.WriteLine( a + b );
 
             Console.ReadKey();
         }
