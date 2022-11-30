@@ -6,7 +6,16 @@ namespace FirstGIthubProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Podaj pierwszą liczbę!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Podaj drugą liczbę!");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Podaj trzecią liczbę!");
+            int c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a + b);
+
+            Console.ReadKey();
         }
     }
 }
+
